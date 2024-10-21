@@ -1,0 +1,18 @@
+print("Hello, selamat berhitung")
+
+a = float(input("Masukkan angka pertama: "))
+operasi = input("Pilih Operasi Matematika (+, -, x, /): ")
+b = float(input("Masukkan angka kedua: "))
+
+if operasi == "+":
+    hasil = a + b
+    print("Hasilnya adalah: ", hasil)
+elif operasi == "-":
+    hasil = a - b
+    print("Hasilnya adalah: ", hasil)
+elif operasi == "x":
+    hasil = a * b
+    print("Hasilnya adalah: ", hasil)
+elif operasi == "/":
+    hasil = a / b
+    print("Hasilnya adalah: ", hasil)
